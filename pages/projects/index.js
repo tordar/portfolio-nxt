@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import Link from 'next/dist/client/link';
 
 export async function getStaticProps({ params }){
 
-  const req = await fetch(`http://localhost:3000/projects.json`)
+  const req = await fetch(`https://jsonplaceholder.typicode.com/users`)
   const data = await req.json();
   
   return {
@@ -23,7 +24,14 @@ export default function Projects({ projects }) {
       </Head>
       <div>Here are some projects: </div>
       <div>
-        {projects.header}
+        {projects.map(project => (
+          <Link href={`/projects/${project.id}`} key={project.id}>
+            <a>
+              <h3>{project.name}</h3>
+            </a>
+          </Link>
+        ))}
+        
         </div>
         <div>
         {projects.info}
