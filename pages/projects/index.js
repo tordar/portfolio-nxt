@@ -5,7 +5,6 @@ export async function getStaticProps({ params }){
 
   const req = await fetch(`http://localhost:3000/projects.json`)
   const data = await req.json();
-  console.log(data)
   
   return {
       props: { projects: data }
