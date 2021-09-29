@@ -1,4 +1,5 @@
 {
-    "id": "projects",
-    "header": "Projects"
+    "id": "1",
+    "header": "JavaScript Playground",
+    "info": "This project was first started when I got into writing JavaScript. This has been my go-to place for exploring different JS skills. It mainly consists of different types of DOM manipulation techniques, a couple of simple games and some experimentation with fetch and Ajax by utilising different APIs. Very informal project that I use to play around with."
 }
