@@ -1,7 +1,16 @@
+import Link from "next/dist/client/link";
+
 const Layout = ({ children }) => {
     return (
         <div>
-        HEY
+        <nav>
+        <Link href="/">
+              <a>Home</a>
+          </Link>
+          <Link href="/projects">
+              <a>Projects</a>
+          </Link>
+        </nav>
             { children }
         </div>
     )
