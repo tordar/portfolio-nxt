@@ -11,16 +11,16 @@ const Layout = ({ children }) => {
                         <h4>Tordar T.</h4>
                         <p>Full-stack developer</p>
                     </div>
-                    <div className={style.links}>
-                        <a href="/" data-link><div class="link">HOME</div></a>
-                        <a href="/projects" data-link><div class="link">PROJECTS</div></a>
-                        <a href="/about" data-link><div class="link">ABOUT</div></a>
-                        <a href="/skills" data-link><div class="link">SKILLS</div></a>
+                    <div>
+                        <a href="/" data-link><div className={style.link}>HOME</div></a>
+                        <a href="/projects" data-link><div className={style.link}>PROJECTS</div></a>
+                        <a href="/about" data-link><div className={style.link}>ABOUT</div></a>
+                        <a href="/skills" data-link><div className={style.link}>SKILLS</div></a>
                     </div>
                     <div className={style.footer}>
-                        <a class="icons" href="https://www.linkedin.com/in/tordar/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                        <a class="icons" href="https://github.com/tordar" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                        <a class="icons" href="https://instagram.com/tordar" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a class="icons" href="https://www.linkedin.com/in/tordar/" target="_blank"><i class="fab fa-linkedin fa-2x"></i>HEY</a>
+                        <a class="icons" href="https://github.com/tordar" target="_blank"><i class="fab fa-github fa-2x"></i>HO</a>
+                        <a class="icons" href="https://instagram.com/tordar" target="_blank"><i class="fab fa-instagram fa-2x"></i>LESGO</a>
                     </div>
                 {/* <nav>
                 <Link href="/">
