@@ -1,20 +1,22 @@
 import Link from "next/dist/client/link";
 import style from "../styles/Card.module.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+const element = <FontAwesomeIcon icon={faCoffee} />
 
 const Card = (props) => {
+    
+
     return (
         <div className={style.card}>
                 <div class="title">
                     <h4>{props.title}</h4>
                     <div>
                     <p>{props.info}</p>
+                    {/* <div className={style.icon}>{element}</div> */}
                 </div>
                 </div>
-                
-                {/* <div class="icons">
-                     <a href="https://github.com/tordar/tip-calculator-app-main" target="_blank"><i class="fab fa-github-alt fa-2x"></i></a>
-                     <a href="https://tordar.github.io/tip-calculator-app-main/" target="_blank"><i class="fab fa-chrome fa-2x"></i></a>
-                </div> */}
             </div>
     )
 }

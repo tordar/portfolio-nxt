@@ -7,7 +7,7 @@
     {
         "id": "2",
         "header": "Rest API Book Database",
-        "info": "Database collection of books. Allowing the user to add their own favorite books. Basic CRUD app, with RestAPI, MongoDB integration, and several features to come."
+        "info": "Database collection of books. Allowing the user to add their own favorite books. CRUD app, with RestAPI, MongoDB integration. Built with Express."
     },
     {
         "id": "3",
