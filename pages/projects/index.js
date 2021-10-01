@@ -8,6 +8,8 @@ export async function getStaticProps({ params }){
   const req = await fetch(`https://jsonplaceholder.typicode.com/users`)
   const data = await req.json();
   
+  // Fix a place for the projects json file
+
   return {
       props: { projects: data }
   }
