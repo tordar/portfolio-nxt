@@ -14,7 +14,7 @@ export async function getStaticProps({ params }){
 }
 
 export default function Projects({ projects }) {
-    console.log(projects[0].header)
+    console.log(projects)
 
   return (
     <div>
