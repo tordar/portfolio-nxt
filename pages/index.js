@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        HEY BOYs
+        Currently in production
       </main>
 
     </div>
