@@ -14,7 +14,7 @@ export async function getStaticProps({ params }){
 }
 
 export default function Projects({ projects }) {
-    console.log(projects)
+    console.log(projects[0].header)
 
   return (
     <div>
@@ -25,14 +25,11 @@ export default function Projects({ projects }) {
       </Head>
       <div>
         {projects.map(project => (
-          <Link href={`/projects/${project.id}`} key={project.id}>
-            <a>
             <Card
+              key={project.id}
               title={project.header}
               info={project.info}
             />
-            </a>
-          </Link>
         ))}
         
         </div>
