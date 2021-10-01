@@ -5,11 +5,9 @@ import Card from '../../components/Card';
 
 export async function getStaticProps({ params }){
 
-  const req = await fetch(`https://jsonplaceholder.typicode.com/users`)
+  const req = await fetch(`https://gist.githubusercontent.com/tordar/9a7120692cf9de1dc1ad0dc30e4a33ef/raw/278026400264a206f9f2425a0cb4160f4d80c1a3/projects`)
   const data = await req.json();
   
-  // Fix a place for the projects json file
-
   return {
       props: { projects: data }
   }
@@ -30,8 +28,8 @@ export default function Projects({ projects }) {
           <Link href={`/projects/${project.id}`} key={project.id}>
             <a>
             <Card
-              title={project.name}
-              info={project.website}
+              title={project.header}
+              info={project.info}
             />
             </a>
           </Link>

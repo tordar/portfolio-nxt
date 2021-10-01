@@ -6,7 +6,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const element = <FontAwesomeIcon icon={faCoffee} />
 
 const Card = (props) => {
-    
 
     return (
         <div className={style.card}>
