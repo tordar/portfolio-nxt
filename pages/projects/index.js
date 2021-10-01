@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Link from 'next/dist/client/link';
+import Card from '../../components/Card';
 
 export async function getStaticProps({ params }){
 
@@ -27,7 +28,10 @@ export default function Projects({ projects }) {
         {projects.map(project => (
           <Link href={`/projects/${project.id}`} key={project.id}>
             <a>
-              <h3>{project.name}</h3>
+            <Card 
+              title={project.name}
+              info={project.website}
+            />
             </a>
           </Link>
         ))}
