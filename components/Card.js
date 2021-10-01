@@ -10,7 +10,7 @@ const Card = (props) => {
 
     return (
         <div className={style.card}>
-                <div class="title">
+                <div className="title">
                     <h4>{props.title}</h4>
                     <div>
                     <p>{props.info}</p>
