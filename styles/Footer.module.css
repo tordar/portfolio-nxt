@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    padding: 1rem;
+    border-radius: 2rem;
+    align-items: center;
+    margin: auto;
+    z-index: 1;
+    visibility: hidden;
+    width: 200px;
+    height: 20px;
+}
