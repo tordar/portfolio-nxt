@@ -15,7 +15,7 @@ export default function Home() {
       <main className={styles.main}>
         Currently in development
       </main>
-
+    
     </div>
   )
 }

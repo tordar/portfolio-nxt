@@ -5,6 +5,7 @@
         justify-content: center;
         background: linear-gradient(to right bottom, rgb(174, 174, 230) 0%, rgba(0,212,255,1) 100%);
         font-family: "Poppins", sans-serif;
+        flex-direction: column;
 }
 
 .glass{
@@ -27,7 +28,6 @@
     text-align: center;
 }
 
-
 .link {
     display: flex;
     margin: 2rem 0rem;
@@ -44,15 +44,6 @@
   .link:hover{
     background: linear-gradient(to right bottom, rgb(202, 202, 255) 0%, rgb(120, 233, 255) 100%);
   }
-
-
-.footer{
-    display: flex;
-    margin: 2rem 0rem;
-    padding: 1rem;
-    border-radius: 2rem;
-    align-items: center;
-}
 
 .app{
     margin: 5rem;

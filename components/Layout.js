@@ -1,3 +1,4 @@
+import Footer from '../components/Footer'
 import Link from "next/dist/client/link";
 import style from "../styles/Layout.module.css"
 
@@ -37,6 +38,7 @@ const Layout = ({ children }) => {
                 { children }
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
