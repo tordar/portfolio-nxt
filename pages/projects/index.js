@@ -31,7 +31,6 @@ export default function Projects({ projects }) {
               info={project.info}
             />
         ))}
-        
         </div>
     </div>
   )

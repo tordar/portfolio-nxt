@@ -13,9 +13,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+<<<<<<< HEAD
         Currently in production
+=======
+        Currently in development
+>>>>>>> development
       </main>
-
+    
     </div>
   )
 }
