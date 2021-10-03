@@ -2,7 +2,10 @@ import Footer from '../components/Footer'
 import Link from "next/dist/client/link";
 import style from "../styles/Layout.module.css"
 
+
+
 const Layout = ({ children }) => {
+
     return (
         <div className={style.main}>
             <div className={style.glass}>
@@ -31,8 +34,6 @@ const Layout = ({ children }) => {
                         <a class="icons" href="https://github.com/tordar" target="_blank"><i class="fab fa-github fa-2x"></i>HO</a>
                         <a class="icons" href="https://instagram.com/tordar" target="_blank"><i class="fab fa-instagram fa-2x"></i>LESGO</a>
                     </div> */}
-                
-                    
                 </div>
                 <div className={style.app}>
                 { children }
