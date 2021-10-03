@@ -5,15 +5,7 @@
     align-items: center;
     margin: auto;
     z-index: 1;
-    visibility: hidden;
+    visibility: visible;
     width: 200px;
     height: 20px;
-<<<<<<< HEAD
-=======
-}
-
-.footer:hover{
-   
-   /* visibility: hidden */
->>>>>>> development
 }
