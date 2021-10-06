@@ -6,13 +6,16 @@ const Tile = (props) => {
 
     const [text, setText] = useState(props.text)
 
-      function targetFunction() {
+      function mouseEnter() {
         setText(props.info)
+      }
+      function mouseLeave() {
+        setText(props.text)
       }
 
     return (
-        <div className={style.tileDiv}>
-            <p onClick={targetFunction} className={style.tile}>{text}</p>
+        <div onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} className={style.tileDiv}>
+            <p className={style.tile}>{text}</p>
         </div>
     )
 }
