@@ -1,9 +1,43 @@
 .card{
-    display: flex;
-    margin: 2rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) 100px);
+    margin: 1.5rem;
     padding: 1rem;
     border-radius: 1rem;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%);
     justify-content: space-between;
     box-shadow: 6px 6px 6px rgba(122, 122, 122, 0.212);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+.title{
+    margin-bottom: 5px;
+}
+
+.iconContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.icons div{
+    color: black;
+    padding: 5px;
+}
+.techIcons{
+    display: flex;
+    flex-direction: row;
+}
+.techIcons div{
+    padding: 5px;
 }

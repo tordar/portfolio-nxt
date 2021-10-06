@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.tileContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 15px 15px; 
+}
