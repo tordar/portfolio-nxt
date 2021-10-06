@@ -10,6 +10,7 @@ const Layout = ({ children, text, setText }) => {
             <div className={style.glass}>
                 <div className={style.dashboard}>
                     <div className={style.info}>
+                    
                     <Image src={"https://avatars.githubusercontent.com//u/71933707?v=4"} className={style.img} alt="Picture of the author" height='150px' width='150px'/>
                         <h4>Tordar T.</h4>
                         <p>Full-stack developer</p>
