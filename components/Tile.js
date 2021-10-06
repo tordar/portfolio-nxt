@@ -11,7 +11,9 @@ const Tile = (props) => {
       }
 
     return (
-        <p onClick={targetFunction} className={style.tile}>{text}</p>
+        <div className={style.tileDiv}>
+            <p onClick={targetFunction} className={style.tile}>{text}</p>
+        </div>
     )
 }
 

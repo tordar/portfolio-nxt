@@ -1,7 +1,9 @@
-.tile p{
-    margin-top: 30%;
-}
+.tileDiv{
+    background-color: rgb(139, 199, 235);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 180px;
+    box-shadow: 6px 6px 6px rgba(155, 172, 207, 0.212);
 
-.tile{
-    
 }
