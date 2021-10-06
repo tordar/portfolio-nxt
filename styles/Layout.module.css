@@ -56,11 +56,11 @@
   }
 
 .app{
-    margin: 5rem;
+    margin: 1.5rem;
     flex: 2.5;
     flex-direction: column;
     padding: 0.5rem;
     border-radius: 2rem;
     overflow:auto;
-    max-height: 68vh;
+    max-height: 80vh;
 }
