@@ -2,18 +2,16 @@ import style from "../styles/Tile.module.css"
 import React, {useState} from 'react'
 
 
-const Tile = () => {
+const Tile = (props) => {
 
-    const [text, setText] = useState('HTML')
+    const [text, setText] = useState(props.text)
 
-      function targetFunction(e) {
-        console.log(e.target)
+      function targetFunction() {
+        setText(props.info)
       }
 
     return (
-        <div onClick={targetFunction} className={style.tile}>
-                <div>{text}</div>
-            </div>
+        <p onClick={targetFunction} className={style.tile}>{text}</p>
     )
 }
 

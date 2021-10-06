@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.tileContainer{
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px 15px;
+  background-color: rgb(139, 199, 235);
+  height: 30rem;
+  box-shadow: 6px 6px 6px rgba(155, 172, 207, 0.212);
+}
