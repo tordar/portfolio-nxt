@@ -7,3 +7,7 @@
     box-shadow: 6px 6px 6px rgba(155, 172, 207, 0.212);
     padding: 15px;
 }
+
+.tileDiv:hover{
+    background-color: rgb(217, 230, 241);
+}
