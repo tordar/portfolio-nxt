@@ -1,8 +1,7 @@
 import Footer from '../components/Footer'
+import ProfilePic from './ProfilePic';
 import Link from "next/dist/client/link";
-import Image from 'next/image'
 import style from "../styles/Layout.module.css"
-import image from 'next/image';
 
 
 
@@ -13,8 +12,7 @@ const Layout = ({ children }) => {
             <div className={style.glass}>
                 <div className={style.dashboard}>
                     <div className={style.info}>
-                    
-                    <Image src={"https://avatars.githubusercontent.com//u/71933707?v=4"} className={style.img} alt="Picture of the author" height='150px' width='150px'/>
+                    <ProfilePic />
                         <h4>Tordar T.</h4>
                         <p>Full-stack developer</p>
                     </div>
