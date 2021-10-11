@@ -1,12 +1,9 @@
 import Link from "next/dist/client/link";
 import style from "../styles/Card.module.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-
-const element = <FontAwesomeIcon icon={faCoffee} />
 
 const Card = (props) => {
 
+    
     return (
         <div className={style.card}>
                 <div>
@@ -19,7 +16,11 @@ const Card = (props) => {
                         <div>hello</div>
                         <div>hello</div>
                     </div>
-                    <div className={style.techIcons}>
+                    <div className={style.icons}>
+                        <div>hello</div>
+                        <div>hello</div>
+                    </div>
+                    <div className={style.icons}>
                         <div>hello</div>
                         <div>hello</div>
                     </div>
