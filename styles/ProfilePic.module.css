@@ -1,6 +1,7 @@
 .img{
     border-radius: 50%;
-    filter: grayscale(50%);
+    filter: grayscale(100%);
+    transition: filter 0.5s;
   }
 
 .img:hover{

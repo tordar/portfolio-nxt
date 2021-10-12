@@ -32,7 +32,8 @@
 
 
 .image{
-  filter: grayscale(100%);
+  filter: opacity(50%) grayscale(100%);
+  transition: filter 0.5s;
 }
 
 .image:hover{

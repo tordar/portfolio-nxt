@@ -10,7 +10,7 @@
 
 .glass{
         background: rgb(2,0,36);
-        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%);
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.534) 100%);
         min-height: 90vh;
         width: 95%;
         border-radius: 2rem;
@@ -63,10 +63,10 @@ color: rgb(61, 61, 61);
 
 .app{
     margin: 1.5rem;
-    flex: 2.5;
+    flex: 3;
     flex-direction: column;
     padding: 0.5rem;
     border-radius: 2rem;
-    overflow:auto;
+    overflow: auto;
     max-height: 80vh;
 }
