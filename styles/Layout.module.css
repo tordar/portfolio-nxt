@@ -23,6 +23,16 @@
   }
 }
 
+.name{
+position: relative;
+}
+
+.title{
+position: relative;
+bottom: 15px;
+color: rgb(61, 61, 61);
+}
+
 .dashboard{
     background-color: aliceblue;
     display: flex;

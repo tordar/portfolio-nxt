@@ -1,11 +1,12 @@
 .timelineDiv{
-    background-color: rgb(139, 199, 235);
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.4) 100%);
+
     display: grid;
     align-items: center;
     justify-items: center;
-    height: 180px;
     box-shadow: 6px 6px 6px rgba(155, 172, 207, 0.212);
     padding: 15px;
+    max-height: 250px;
 }
 
 .header{

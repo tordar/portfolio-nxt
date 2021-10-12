@@ -1,5 +1,5 @@
 .tileDiv{
-    background-color: rgb(139, 199, 235);
+    background: linear-gradient(to right bottom, rgb(174, 174, 230) 0%, rgba(0,212,255,1) 100%);
     display: grid;
     align-items: center;
     justify-items: center;
@@ -9,5 +9,6 @@
 }
 
 .tileDiv:hover{
-    background-color: rgb(217, 230, 241);
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.4) 100%);
+
 }

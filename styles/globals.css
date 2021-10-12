@@ -16,6 +16,8 @@ a {
 }
 
 .tileContainer{
+  position: relative;
+  top: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 15px 15px; 

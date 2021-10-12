@@ -15,25 +15,48 @@ export default function About() {
       </Head>
       <div>
         <h1>
-          Timeline
+          Before Code
         </h1>
       </div>
       <div className="timelineContainer">
         <Timeline 
-          time = "2017"
-          content = "Did some stuff"
+          time = "2015-2016"
+          content = "Volunteered in several different positions during the height of the refugee crisis, in Greece and Lebanon."
         />
          <Timeline 
           time = "2017"
-          content = "Did some stuff"
+          content = "Worked as supervisor for the local team, at a Norwegian green energy company, in Antananarivo, Madagascar."
+        />
+         <Timeline 
+          time = "2018-2020"
+          content = "Studied at Leiden University, receiving my bachelors degree in International Relations and Organisations."
+        />
+         <Timeline 
+          time = "2020-"
+          content = "Developed a big passion for programming and have since constantly been trying to develop myself in the field."
+        />
+        </div>
+        <div>
+        <h1>
+          After Code
+        </h1>
+      </div>
+      <div className="timelineContainer">
+        <Timeline 
+          time = "2015-2016"
+          content = "Volunteered in several different positions during the height of the refugee crisis, in Greece and Lebanon."
         />
          <Timeline 
           time = "2017"
-          content = "Did some stuff"
+          content = "Worked as supervisor for the local team, at a Norwegian green energy company, in Antananarivo, Madagascar."
         />
          <Timeline 
-          time = "2017"
-          content = "Did some stuff"
+          time = "2018-2020"
+          content = "Studied at Leiden University, receiving my bachelors degree in International Relations and Organisations."
+        />
+         <Timeline 
+          time = "2020-"
+          content = "Developed a big passion for programming and have since constantly been trying to develop myself in the field."
         />
         </div>
     </div>

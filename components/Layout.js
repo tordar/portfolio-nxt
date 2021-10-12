@@ -13,8 +13,8 @@ const Layout = ({ children }) => {
                 <div className={style.dashboard}>
                     <div className={style.info}>
                     <ProfilePic />
-                        <h4>Tordar T.</h4>
-                        <p>Full-stack developer</p>
+                        <h4 className={style.name}>Tordar T.</h4>
+                        <p className={style.title}>Full-stack developer</p>
                     </div>
                     <nav>
                         <Link href="/">

@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        Currently in production
+        Full-stack developer in the making, so is this site
       </main>
     
     </div>
