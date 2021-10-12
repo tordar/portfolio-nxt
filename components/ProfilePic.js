@@ -15,7 +15,7 @@ const ProfilePic = () => {
     }
 
     return (
-        <Image onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} src={pic} className={style.img} alt="Picture of the author" height='150px' width='150px'/>
+        <Image  src={pic} className={style.img} alt="Picture of the author" height='150px' width='150px'/>
     )
 }
 

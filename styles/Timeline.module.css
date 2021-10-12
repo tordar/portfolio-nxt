@@ -1,6 +1,6 @@
 .timelineDiv{
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.4) 100%);
-
+    border-radius: 5px;
     display: grid;
     align-items: center;
     justify-items: center;
