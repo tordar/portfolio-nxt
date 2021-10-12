@@ -1,11 +1,12 @@
 .tileDiv{
-    background: linear-gradient(to right bottom, rgb(174, 174, 230) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(to right bottom, rgb(213, 213, 235) 0%, rgb(196, 241, 250) 100%);
     display: grid;
     align-items: center;
     justify-items: center;
     height: 180px;
     box-shadow: 6px 6px 6px rgba(155, 172, 207, 0.212);
     padding: 15px;
+    border-radius: 5px;
 }
 
 .tileDiv:hover{

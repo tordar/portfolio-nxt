@@ -14,7 +14,6 @@ export async function getStaticProps({ params }){
 }
 
 export default function Projects({ projects }) {
-    console.log(projects)
 
   return (
     <div>
@@ -29,6 +28,8 @@ export default function Projects({ projects }) {
               key={project.id}
               title={project.header}
               info={project.info}
+              github={project.github}
+              link={project.link}
             />
         ))}
         </div>

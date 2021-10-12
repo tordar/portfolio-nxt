@@ -13,9 +13,12 @@ const Card = (props) => {
                 </div>
                 <div className={style.iconContainer}>
                     <div className={style.icons}>
-                        
-                        <div>GitHub</div>
-                        <div>Link</div>
+                        <div>
+                            <a href={props.github}>GitHub</a>
+                        </div>
+                        <div>
+                            <a href={props.link}>Link</a>
+                        </div>
                     </div>
                     <div className={style.icons}>
                         <div>JS</div>
