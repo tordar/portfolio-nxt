@@ -3,6 +3,6 @@ module.exports = {
 },
 module.exports = {
   images: {
-    domains: ['avatars.githubusercontent.com', 'images.unsplash.com'],
+    domains: ['avatars.githubusercontent.com', 'images.unsplash.com', 'live.staticflickr.com'],
   },
 }
