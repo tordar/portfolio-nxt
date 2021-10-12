@@ -20,3 +20,9 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 15px 15px; 
 }
+
+.timelineContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 15px 15px; 
+}

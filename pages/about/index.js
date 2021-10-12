@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import Link from 'next/dist/client/link';
-import Card from '../../components/Card';
+import Timeline from '../../components/Timeline';
 
 
 
@@ -15,7 +14,27 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        ABOUT PAGE
+        <h1>
+          Timeline
+        </h1>
+      </div>
+      <div className="timelineContainer">
+        <Timeline 
+          time = "2017"
+          content = "Did some stuff"
+        />
+         <Timeline 
+          time = "2017"
+          content = "Did some stuff"
+        />
+         <Timeline 
+          time = "2017"
+          content = "Did some stuff"
+        />
+         <Timeline 
+          time = "2017"
+          content = "Did some stuff"
+        />
         </div>
     </div>
   )
