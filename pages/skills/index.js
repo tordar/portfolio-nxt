@@ -12,9 +12,7 @@ export async function getStaticProps({ params }){
 }
 
 export default function Skills({
-  skills,
-  // text,
-  // setText
+  skills
 }) {
 
   return (
