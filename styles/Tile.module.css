@@ -7,8 +7,36 @@
     box-shadow: 6px 6px 6px rgba(155, 172, 207, 0.212);
     padding: 15px;
     border-radius: 5px;
+    font-size: larger;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
 }
 
 .tileDiv:hover{
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.4) 100%);
+    font-size: medium;
 }
+
+
+
+  .card__face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+  }
+
+  .card__face__front {
+    background: red;
+  }
+  
+  
+  .card__face__back {
+    background: blue;
+    transform: rotateY( 180deg );
+  }
+
+  .card.is-flipped {
+    transform: rotateY(180deg);
+  }

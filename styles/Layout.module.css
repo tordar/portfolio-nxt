@@ -55,6 +55,7 @@ color: rgb(61, 61, 61);
     color: black;
     background: rgb(2,0,36);
     background: linear-gradient(to right bottom, rgb(213, 213, 235) 0%, rgb(196, 241, 250) 100%);
+    cursor: grab;
   }
 
   .link:hover{
