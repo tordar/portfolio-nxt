@@ -31,10 +31,6 @@ export default function About() {
           time = "2018-2020"
           content = "Studied at Leiden University, receiving my bachelors degree in International Relations and Organisations."
         />
-         <Timeline 
-          time = "2020-"
-          content = "Developed a big passion for programming and have since constantly been trying to develop myself in the field."
-        />
         </div>
         <div>
         <h1>

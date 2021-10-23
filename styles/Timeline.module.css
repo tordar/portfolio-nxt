@@ -11,10 +11,10 @@
 
 .header{
     position: relative;
-    top: -30px;
+    top: -10px;
 }
 
 .content{
     position: relative;
-    bottom: 60px;
+    bottom: 20px;
 }
