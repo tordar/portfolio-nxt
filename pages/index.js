@@ -17,7 +17,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-
+  <div className={styles.container}>
       <div className={styles.containerLeft}>
         <div className={styles.left}>
           <Image className={styles.image} src='https://live.staticflickr.com/65535/51582220598_aa78eea24c_k.jpg' width='2048px' height='1153px'/>
@@ -40,10 +40,10 @@ export default function Home() {
           <Image className={styles.image} src='https://live.staticflickr.com/65535/51582760604_d26435c449_k.jpg' width='2048px' height='1374px'/>
         </div>
         <div className={styles.right}>
-          <h4 className={styles.content}>Self-taught developer, with education in International Relations, and experience in humanitarian work</h4>
+          <h4 className={styles.content}>Self-taught developer, with a bachelors in International Relations, and experience in humanitarian work</h4>
         </div>
       </div>
-        
+      </div>
       
       </div>
   )
