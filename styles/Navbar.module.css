@@ -1,0 +1,42 @@
+
+.link {
+    display: flex;
+    margin: 1rem 0rem;
+    padding: 1rem 3rem;
+    min-width: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2rem;
+    color: black;
+    background: rgb(2,0,36);
+    background: linear-gradient(to right bottom, rgb(213, 213, 235) 0%, rgb(196, 241, 250) 100%);
+    cursor: grab;
+  }
+
+  .link:hover{
+    background: linear-gradient(to right bottom, rgb(220, 220, 252) 0%, rgb(207, 243, 250) 100%);
+  }
+
+.navBar {
+  display:block;
+}
+
+@media only screen and (max-width: 800px) {
+    .navBar {
+      display: none;
+    }
+  }
+
+.mystyle{
+    background-color: red;
+}
+
+.toggleBtn{
+    background-color: rgb(120, 146, 168);
+}
+
+@media only screen and (min-width: 800px) {
+    .toggleBtn {
+      display: none;
+    }
+  }

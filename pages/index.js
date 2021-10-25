@@ -29,7 +29,7 @@ export default function Home() {
 
       <div className={styles.containerRight}>
         <div className={styles.left}>
-            <h4 className={styles.content}>Passionate about learning and continuing to break molds</h4>        
+            <h4 className={styles.content}>Passionate about learning and continuing to break the mold</h4>        
           </div>
         <div className={styles.right}>
           <Image className={styles.image} src='https://live.staticflickr.com/65535/51582064381_b78b2270d0_k.jpg' width='2048px' height='1374px'/>

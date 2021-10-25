@@ -44,24 +44,6 @@ color: rgb(61, 61, 61);
     text-align: center;
 }
 
-.link {
-    display: flex;
-    margin: 1rem 0rem;
-    padding: 1rem 3rem;
-    min-width: 100px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 2rem;
-    color: black;
-    background: rgb(2,0,36);
-    background: linear-gradient(to right bottom, rgb(213, 213, 235) 0%, rgb(196, 241, 250) 100%);
-    cursor: grab;
-  }
-
-  .link:hover{
-    background: linear-gradient(to right bottom, rgb(220, 220, 252) 0%, rgb(207, 243, 250) 100%);
-  }
-
 .app{
     margin: 1.5rem;
     flex: 3;
