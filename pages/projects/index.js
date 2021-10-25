@@ -5,13 +5,15 @@ import Card from '../../components/Card';
 
 export async function getStaticProps({ params }){
 
-  const req = await fetch(`https://gist.githubusercontent.com/tordar/9a7120692cf9de1dc1ad0dc30e4a33ef/raw/ca0b6f845fa1931d3423a3b4901b44fe81fbf82a/projects`)
+  const req = await fetch(`https://gist.githubusercontent.com/tordar/9a7120692cf9de1dc1ad0dc30e4a33ef/raw/7baa0bbf6265f683f3d7f6224cdf238242776812/projects`)
   const data = await req.json();
   
   return {
       props: { projects: data }
   }
 }
+
+// Needs added icons with different links to show up better
 
 export default function Projects({ projects }) {
 

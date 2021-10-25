@@ -13,6 +13,8 @@ const Navigation = () => {
         setStyles('mystyle')
     }
 
+    // Currently showMenu doesn't do anything, and the styling on mobile completely hides the menu
+    // It needs to add back the navBar onClick
 
     return (
         <div className={style.container}>

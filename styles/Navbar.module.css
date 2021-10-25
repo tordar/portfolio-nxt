@@ -21,11 +21,11 @@
   display:block;
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     .navBar {
       display: none;
     }
-  }
+  } */
 
 .mystyle{
     background-color: red;
