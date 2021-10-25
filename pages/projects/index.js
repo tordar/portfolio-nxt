@@ -5,7 +5,7 @@ import Card from '../../components/Card';
 
 export async function getStaticProps({ params }){
 
-  const req = await fetch(`https://gist.githubusercontent.com/tordar/9a7120692cf9de1dc1ad0dc30e4a33ef/raw/7baa0bbf6265f683f3d7f6224cdf238242776812/projects`)
+  const req = await fetch(`https://gist.githubusercontent.com/tordar/9a7120692cf9de1dc1ad0dc30e4a33ef/raw/2755e5ee11e47661578e999279dc11609bd29110/projects`)
   const data = await req.json();
   
   return {
