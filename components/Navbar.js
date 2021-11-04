@@ -18,7 +18,7 @@ const Navigation = () => {
 
     return (
         <div className={style.container}>
-        <div>
+        {/* <div>
             <button className={style.toggleBtn}
             onClick={showMenu}
             type='button'
@@ -26,7 +26,7 @@ const Navigation = () => {
             aria-label='Toggle menu'
             aria-expanded='false'
             >Toggle</button>
-        </div>
+        </div> */}
                 <nav className={style.navBar}>
                     <Link href="/">
                         <div className={style.link}>HOME</div>

@@ -1,12 +1,14 @@
 import style from "../styles/Tile.module.css"
-import React, {useState} from 'react'
-
+import React, {useState, useEffect} from 'react'
+import { unmountComponentAtNode } from 'react-dom';
 
 const Tile = (props) => {
 
     const [text, setText] = useState("")
     const [img, setImg] = useState(props.img)
+    const [hidden, setHidden] = useState('block')
 
+  
       function mouseEnter() {
         setText(props.info)
         setImg('')
@@ -15,11 +17,15 @@ const Tile = (props) => {
         setText("")
         setImg(props.img)
       }
+      
+      // useEffect(() => {
+      //   setHidden('none') 
+      // }, [hidden]);
 
     return (
         <div onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} className={style.tileDiv}>
           <div>
-            <img src={props.img}/>
+            <img src={img}/>
           </div>
           <div>
             <p className={style.tile}>{text}</p>
