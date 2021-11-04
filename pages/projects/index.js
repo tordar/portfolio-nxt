@@ -5,7 +5,7 @@ import Card from '../../components/Card';
 
 export async function getStaticProps({ params }){
 
-  const req = await fetch(`https://gist.githubusercontent.com/tordar/9a7120692cf9de1dc1ad0dc30e4a33ef/raw/2755e5ee11e47661578e999279dc11609bd29110/projects`)
+  const req = await fetch(`https://gist.githubusercontent.com/tordar/9a7120692cf9de1dc1ad0dc30e4a33ef/raw/54c618f19861fdc5a68bd8afa17765d5e4dedfc7/projects`)
   const data = await req.json();
   
   return {
@@ -13,9 +13,10 @@ export async function getStaticProps({ params }){
   }
 }
 
-// Needs added icons with different links to show up better
+
 
 export default function Projects({ projects }) {
+
 
   return (
     <div>
@@ -32,6 +33,10 @@ export default function Projects({ projects }) {
               info={project.info}
               github={project.github}
               link={project.link}
+              html={project.html}
+              css={project.css}
+              bootstrap={project.bootstrap}
+              javascript={project.javascript}
             />
         ))}
         </div>

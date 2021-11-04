@@ -1,4 +1,5 @@
 import Link from "next/dist/client/link";
+import Image from 'next/image'
 import style from "../styles/Card.module.css"
 
 const Card = (props) => {
@@ -9,20 +10,21 @@ const Card = (props) => {
                 <div>
                     <h4 className={style.title}>{props.title}</h4>
                     <p className={style.info}>{props.info}</p>
-                    {/* <div className={style.icon}>{element}</div> */}
                 </div>
                 <div className={style.iconContainer}>
                     <div className={style.icons}>
                         <div>
-                            <a href={props.github}>GitHub</a>
+                            <a href={props.github}><Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width='20px' height='20px'/></a>
                         </div>
                         <div>
-                            <a href={props.link}>Link</a>
+                        <a href={props.link}><Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width='20px' height='20px'/></a>
                         </div>
                     </div>
                     <div className={style.icons}>
-                        <div>JS</div>
-                        <div>HTML</div>
+                        {/* <img src={props.html}/>
+                        <img src={props.css}/>
+                        <img src={props.bootstrap}/>
+                        <img src={props.javascript}/> */}
                     </div>
                 </div>
             </div>

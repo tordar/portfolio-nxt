@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "header": "JavaScript Playground",
+        "info": "This project was first started when I got into writing JavaScript. This has been my go-to place for exploring different JS skills. It mainly consists of different types of DOM manipulation techniques, a couple of simple games and some experimentation with fetch and Ajax by utilising different APIs. Very informal project that I use to play around with.",
+        "github": "https://github.com/tordar/Javascript-Playground",
+        "link": "https://tordar.github.io/Javascript-Playground/",
+        "html": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "css": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg", 
+        "bootstrap": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg",
+        "javascript": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    },
+    {
+        "id": "2",
+        "header": "Rest API Book Database",
+        "info": "Database collection of books. Allowing the user to add their own favorite books. CRUD app, with RestAPI, MongoDB integration. Built with Express.",
+        "github": "https://github.com/tordar/Rest-API-Book-Repo"
+    },
+    {
+        "id": "3",
+        "header": "Tip Calculator",
+        "info": "This was a project from Frontend Mentor, where I developed a tip calculator based on design images.",
+        "github": "https://github.com/tordar/tip-calculator-app-main",
+        "link": "https://tordar.github.io/tip-calculator-app-main/"
+    },
+    {
+        "id": "4",
+        "header": "SPA portfolio",
+        "info": "This website was first built in Express, and Vanilla JS. However, to get experience with React and build a more scalable and maintainable portfolio, I changed the codebase to use NextJS and React",
+        "github": "https://github.com/tordar/portfolio-nxt",
+        "link": "https://tordar.no"
+    },
+    {
+        "id": "5",
+        "header": "Login/Signup page",
+        "info": "Based on design files, I built a login/signup page, with React. Here, I also demonstrated how the React Router worked.",
+        "github": "https://github.com/tordar/Fortress-oppgave",
+        "link": "https://eloquent-allen-9611ae.netlify.app"
+    },
+    {
+        "id": "6",
+        "header": "Snapchat memory downloader",
+        "info": "Snapchat makes it very difficult to download all your memories at the same time. So I made this app which gives you a much easier way than downloading them straight from the app.",
+        "github": "https://github.com/tordar/Download-Snapchat-Memories",
+        "link": "#"
+    }
+]
