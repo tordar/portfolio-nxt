@@ -3,7 +3,7 @@ import Tile from '../../components/Tile';
 
 export async function getStaticProps({ params }){
 
-  const req = await fetch(`https://gist.githubusercontent.com/tordar/bea1434715d28e0c043a6b8f4d6f5d34/raw/19f57f85b6ab8fe468f9f62670b702896f468a0f/skills`)
+  const req = await fetch(`https://gist.githubusercontent.com/tordar/bea1434715d28e0c043a6b8f4d6f5d34/raw/1449d3099c89ec1a02dffb46b303d1648470adc8/skills`)
   const data = await req.json();
   
   return {
@@ -26,8 +26,9 @@ export default function Skills({
       {skills.map(skill => (
             <Tile
               key={skill.id}
-              text={skill.header}
+              // text={skill.header}
               info={skill.info}
+              img={skill.img}
             />
         ))}
         </div>

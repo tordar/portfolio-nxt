@@ -18,7 +18,15 @@
     font-size: medium;
 }
 
+.tileDiv img{
+  margin-top: 25px;
+  width: 100px;
+  height: 100px;
+}
 
+.tileDiv img:hover{
+  display: none;
+}
 
   .card__face {
     position: absolute;
