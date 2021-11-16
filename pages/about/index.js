@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import { useRouter } from 'next/router'
 import Timeline from '../../components/Timeline';
-
 
 
 export default function About() {
