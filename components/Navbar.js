@@ -12,21 +12,8 @@ const Navigation = () => {
         console.log(e.target.classList)
         setStyles('mystyle')
     }
-
-    // Currently showMenu doesn't do anything, and the styling on mobile completely hides the menu
-    // It needs to add back the navBar onClick
-
     return (
         <div className={style.container}>
-        {/* <div>
-            <button className={style.toggleBtn}
-            onClick={showMenu}
-            type='button'
-            aria-controls='navbar'
-            aria-label='Toggle menu'
-            aria-expanded='false'
-            >Toggle</button>
-        </div> */}
                 <nav className={style.navBar}>
                     <Link href="/">
                         <div className={style.link}>HOME</div>

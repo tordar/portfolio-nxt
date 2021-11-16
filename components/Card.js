@@ -14,10 +14,10 @@ const Card = (props) => {
                 <div className={style.iconContainer}>
                     <div className={style.icons}>
                         <div>
-                            <a href={props.github}><Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width='20px' height='20px'/></a>
+                            <a href={props.github} target="_blank"><Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width='20px' height='20px'/></a>
                         </div>
                         <div>
-                        <a href={props.link}><Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width='20px' height='20px'/></a>
+                        <a href={props.link} target="_blank"><Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width='20px' height='20px'/></a>
                         </div>
                     </div>
                     <div className={style.icons}>
