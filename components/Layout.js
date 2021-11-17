@@ -18,11 +18,11 @@ const Layout = ({ children }) => {
                         <p className={style.title}>Full-stack developer</p>
                     </div>
                     <Navigation />
-                    {/* <div className={style.footer}>
-                        <a class="icons" href="https://www.linkedin.com/in/tordar/" target="_blank"><i class="fab fa-linkedin fa-2x"></i>HEY</a>
-                        <a class="icons" href="https://github.com/tordar" target="_blank"><i class="fab fa-github fa-2x"></i>HO</a>
-                        <a class="icons" href="https://instagram.com/tordar" target="_blank"><i class="fab fa-instagram fa-2x"></i>LESGO</a>
-                    </div> */}
+                    <div className={style.footer}>
+                        <a class="icons" href="https://www.linkedin.com/in/tordar/" target="_blank"><i class="fab fa-linkedin fa-2x"></i>LINKEDIN </a>
+                        <a class="icons" href="https://github.com/tordar" target="_blank"><i class="fab fa-github fa-2x"></i>GITHUB </a>
+                        <a class="icons" href="https://instagram.com/tordar" target="_blank"><i class="fab fa-instagram fa-2x"></i>INSTA</a>
+                    </div>
                 </div>
                 <div className={style.app}>
                 { children }

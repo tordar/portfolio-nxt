@@ -21,10 +21,6 @@ const Card = (props) => {
                         </div>
                     </div>
                     <div className={style.icons}>
-                        {/* <img src={props.html}/>
-                        <img src={props.css}/>
-                        <img src={props.bootstrap}/>
-                        <img src={props.javascript}/> */}
                     </div>
                 </div>
             </div>
