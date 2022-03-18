@@ -23,7 +23,7 @@ export default function Home() {
           <Image className={styles.image} src='https://live.staticflickr.com/65535/51582220598_aa78eea24c_k.jpg' width='2048px' height='1153px'/>
         </div>
         <div className={styles.right}>
-          <h4 className={styles.content}>Fullstack developer in the making</h4>
+          <h4 className={styles.content}>Fullstack developer</h4>
         </div>
       </div>
 

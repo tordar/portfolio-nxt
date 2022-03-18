@@ -44,6 +44,10 @@ export default function About() {
           time = "2021"
           content = "Still writing code every day and building out my portfolio. Been taking on several projects as a freelance developer. Focusing mainly on improving my skills in ReactJS, and different developer tools."
         />
+         <Timeline 
+          time = "2022"
+          content = "Started working full time as a software developer for the Norwegian Red Cross. Contributing to develop an application focusing on early detection warning of disease outbreak."
+        />
         </div>
     </div>
   )

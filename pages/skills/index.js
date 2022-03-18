@@ -3,7 +3,7 @@ import Tile from '../../components/Tile';
 
 export async function getStaticProps({ params }){
 
-  const req = await fetch(`https://gist.githubusercontent.com/tordar/bea1434715d28e0c043a6b8f4d6f5d34/raw/1449d3099c89ec1a02dffb46b303d1648470adc8/skills`)
+  const req = await fetch(`https://gist.githubusercontent.com/tordar/bea1434715d28e0c043a6b8f4d6f5d34/raw/77374f8092e7be9f1e372c67f2831f8bf08ff2ac/skills`)
   const data = await req.json();
   
   return {
