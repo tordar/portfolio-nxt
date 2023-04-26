@@ -14,8 +14,8 @@ const Layout = ({ children }) => {
                 <div className={style.dashboard}>
                     <div className={style.info}>
                     <ProfilePic />
-                        <h4 className={style.name}>Tordar T.</h4>
-                        <p className={style.title}>Full-stack developer</p>
+                        <h4 className={style.name}>tordar       t</h4>
+                        <p className={style.title}>developer</p>
                     </div>
                     <Navigation />
                     {/* <div className={style.footer}>

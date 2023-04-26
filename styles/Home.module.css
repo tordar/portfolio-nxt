@@ -1,3 +1,7 @@
+.font-face-gm {
+  font-family: "Blonde";
+ }
+
 .container{
   display: flex;
   flex-wrap: wrap;
@@ -164,6 +168,7 @@
   text-align: center;
   margin: auto;
   letter-spacing: 3px;
+  /* font-family: "Blonde"; */
 }
 
 @media (max-width: 600px) {

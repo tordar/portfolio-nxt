@@ -8,6 +8,7 @@
         flex-direction: column;
 }
 
+
 .glass{
         background: rgb(2,0,36);
         background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.534) 100%);
@@ -25,12 +26,14 @@
 
 .name{
 position: relative;
+font-family: "Blonde";
 }
 
 .title{
 position: relative;
 bottom: 15px;
 color: rgb(61, 61, 61);
+font-family: "Blonde";
 }
 
 .dashboard{
