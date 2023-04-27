@@ -6,6 +6,7 @@
         background: linear-gradient(to right bottom, rgb(213, 213, 235) 0%, rgb(196, 241, 250) 100%);
         font-family: "Poppins", sans-serif;
         flex-direction: column;
+        
 }
 
 
@@ -16,6 +17,7 @@
         width: 95%;
         border-radius: 2rem;
         display: flex;
+        transform: rotate(1deg);
 }
 
 @media only screen and (max-width: 800px) {
