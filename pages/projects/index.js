@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Link from 'next/dist/client/link';
-import Card from '../../components/Card';
+import CardFunction from '../../components/Card';
 
 export async function getStaticProps({ params }){
 
@@ -27,7 +27,7 @@ export default function Projects({ projects }) {
       </Head>
       <div>
         {projects.map(project => (
-            <Card
+            <CardFunction
               key={project.id}
               title={project.header}
               info={project.info}
