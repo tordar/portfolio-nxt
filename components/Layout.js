@@ -9,26 +9,21 @@ import style from "../styles/Layout.module.css"
 const Layout = ({ children }) => {
 
     return (
-        <div className={style.main}>
-            <div className={style.glass}>
-                <div className={style.dashboard}>
-                    <div className={style.info}>
-                    <ProfilePic />
-                        <h4 className={style.name}>tordar       t</h4>
-                        <p className={style.title}>developer</p>
-                    </div>
-                    <Navigation />
-                    {/* <div className={style.footer}>
-                        <a class="icons" href="https://www.linkedin.com/in/tordar/" target="_blank"><i class="fab fa-linkedin fa-2x"></i>LINKEDIN </a>
-                        <a class="icons" href="https://github.com/tordar" target="_blank"><i class="fab fa-github fa-2x"></i>GITHUB </a>
-                        <a class="icons" href="https://instagram.com/tordar" target="_blank"><i class="fab fa-instagram fa-2x"></i>INSTA</a>
-                    </div> */}
-                </div>
-                <div className={style.app}>
-                { children }
-                </div>
-            </div>
-            {/* <Footer /> */}
+        <div className={style.parent}>
+        <div className={`${style.div1} ${style.base} `}>1 </div>
+        <div className={`${style.div2} ${style.base} `}>2 </div>
+        <div className={`${style.div3} ${style.base} `}>3 </div>
+        <div className={`${style.div4} ${style.base} `}> 4</div>
+        <div className={`${style.div5} ${style.base} `}> 6</div>
+        <div className={`${style.div6} ${style.base} `}> </div>
+        <div className={`${style.div7} ${style.base} `}> </div>
+        <div className={`${style.div8} ${style.base} `}> </div>
+        <div className={`${style.div9} ${style.base} `}> </div>
+        <div className={`${style.div10} ${style.base} `}> </div>
+        <div className={`${style.div11} ${style.base} `}> </div>
+        <div className={`${style.div12} ${style.base} `}> </div>
+        <div className={`${style.div13} ${style.base} `}> </div>
+        <div className={`${style.div14} ${style.base} `}> </div>
         </div>
     )
 }
