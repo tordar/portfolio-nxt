@@ -1,7 +1,7 @@
 import Link from "next/dist/client/link";
 import Image from 'next/image'
 import style from "../styles/Card.module.css"
-import { Card } from "@mui/material";
+import { Card, Grid } from "@mui/material";
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
@@ -9,25 +9,25 @@ import Typography from '@mui/material/Typography';
 import Chip from "@mui/material/Chip";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
+
 const CardFunction = (props) => {
 
     
     return (
-<Card className={style.card} variant="outlined" sx={{ maxWidth: 500 }}>
-      <CardContent>
-        <Typography className={style.title} sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-        {props.title} 
-        </Typography>
-        <Typography variant="h5" component="div">
-        {props.info} 
-        </Typography>
-        <Chip icon={<GitHubIcon />} label="GitHub" component="a" href={props.github} clickable>
-        
-        </Chip>
-      </CardContent>
-        
-      
-    </Card>
+        <Grid item xs="auto">
+            <Card className={style.card} variant="outlined" sx={{ maxWidth: 500 }}>
+                <CardContent>
+                    <Typography className={style.title} sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                    {props.title} 
+                    </Typography>
+                    <Typography variant="h5" component="div">
+                    {props.info} 
+                    </Typography>
+                    <Chip icon={<GitHubIcon />} label="GitHub" component="a" href={props.github} clickable>
+                    </Chip>
+                </CardContent>
+            </Card>
+        </Grid>
        
     )
 }
