@@ -12,14 +12,17 @@ const CardFunction = (props) => {
 
     
     return (
-<Card variant="outlined" sx={{ maxWidth: 500 }}>
+<Card className={style.card} variant="outlined" sx={{ maxWidth: 500 }}>
       <CardContent>
-        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-        {props.title}
+        <Typography className={style.title} sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        {props.title} 
         </Typography>
         <Typography variant="h5" component="div">
-        {props.info}
+        {props.info} 
         </Typography>
+        <Chip label="GitHub" component="a" href={props.github} clickable>
+        
+        </Chip>
       </CardContent>
         
       
