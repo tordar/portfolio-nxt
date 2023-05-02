@@ -7,6 +7,7 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Chip from "@mui/material/Chip";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const CardFunction = (props) => {
 
@@ -20,7 +21,7 @@ const CardFunction = (props) => {
         <Typography variant="h5" component="div">
         {props.info} 
         </Typography>
-        <Chip label="GitHub" component="a" href={props.github} clickable>
+        <Chip icon={<GitHubIcon />} label="GitHub" component="a" href={props.github} clickable>
         
         </Chip>
       </CardContent>
