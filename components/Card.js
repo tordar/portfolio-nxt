@@ -14,13 +14,13 @@ const CardFunction = (props) => {
 
     
     return (
-        <Grid item xs="auto">
+        <Grid item s>
             <Card className={style.card} variant="outlined" sx={{ maxWidth: 500 }}>
                 <CardContent>
-                    <Typography className={style.title} sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                    <Typography className={style.title} sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
                     {props.title} 
                     </Typography>
-                    <Typography variant="h5" component="div">
+                    <Typography variant="body2" component="div">
                     {props.info} 
                     </Typography>
                     <Chip icon={<GitHubIcon />} label="GitHub" component="a" href={props.github} clickable>
