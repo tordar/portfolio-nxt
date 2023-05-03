@@ -1,4 +1,28 @@
 
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100%;
+  }
+
+  .base {
+    border-left: solid 3px white;
+    border-right: solid 3px white;
+    background-color: rgb(14, 15, 20);
+    color: aliceblue;
+    display: flex; 
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 10; }
+  .div2 { grid-area: 1 / 10 / 2 / 11; }
+  .div3 { grid-area: 1 / 11 / 2 / 12; }
+  .div4 { grid-area: 1 / 12 / 2 / 13; }
+
 .link {
     display: flex;
     margin: 1rem 0rem;
@@ -18,9 +42,7 @@
     background: linear-gradient(to right bottom, rgb(220, 220, 252) 0%, rgb(207, 243, 250) 100%);
   }
 
-.navBar {
-  display:block;
-}
+
 
 /* @media only screen and (max-width: 800px) {
     .navBar {
