@@ -10,9 +10,24 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EastIcon from '@mui/icons-material/East';
 import WestIcon from '@mui/icons-material/West';
 import Image from 'next/dist/client/image';
+import { useState } from 'react';
+
+
+
 
 
 const Layout = ({ children }) => {
+    const [card, setCard] = useState(0)
+
+    function onNext(){
+        setCard(card + 1)
+        console.log(card)
+    }
+
+    function onPrevious(){
+        setCard(card - 1)
+        console.log(card)
+    }
 
     return (
         
@@ -40,12 +55,14 @@ const Layout = ({ children }) => {
         <div className={`${style.div10} ${style.base} `}> 10</div>
         <div className={`${style.div11} ${style.base} `}> 11 </div>
         <div className={`${style.div12} ${style.base} ${"hover:bg-gray-50"} ${"text-gray-50"}  ${"hover:text-black"}`} > 
-            <WestIcon fontSize='large' />
+            <WestIcon fontSize='large' onClick={onPrevious}/>
         </div>
         <div className={`${style.div13} ${style.base} ${"hover:bg-gray-50"} ${"text-gray-50"}  ${"hover:text-black"}`}> 
-            <EastIcon fontSize='large'/>
+            <EastIcon fontSize='large' onClick={onNext}/>
         </div>
-        <div className={`${style.div14} ${style.base} `}> MAIN CONTENT </div>
+        <div card className={`${style.div14} ${style.base} `}> 
+        { children }
+        </div>
         </div>
     )
 }
