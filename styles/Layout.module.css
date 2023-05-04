@@ -1,60 +1,43 @@
-.main{
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: linear-gradient(to right bottom, rgb(213, 213, 235) 0%, rgb(196, 241, 250) 100%);
-        font-family: "Poppins", sans-serif;
-        flex-direction: column;
-        
-}
-
-
-.glass{
-        background: rgb(2,0,36);
-        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.534) 100%);
-        min-height: 90vh;
-        width: 95%;
-        border-radius: 2rem;
-        display: flex;
-        /* transform: rotate(1deg); */
-}
-
-@media only screen and (max-width: 800px) {
-  .glass {
-    flex-direction: column;
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100vw;
+  height: 100vh;
   }
-}
 
-.name{
-position: relative;
-font-family: "Blonde";
-}
-
-.title{
-position: relative;
-bottom: 15px;
-color: rgb(61, 61, 61);
-font-family: "Blonde";
-}
-
-.dashboard{
-    background-color: aliceblue;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    border-radius: 2rem 0 0 2rem;
+  .base {
+    border: solid 3px white;
+    background-color: rgb(14, 15, 20);
+    color: aliceblue;
+    display: flex; 
     align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-.app{
-    margin: 1.5rem;
-    flex: 3;
-    flex-direction: column;
-    padding: 0.5rem;
-    border-radius: 2rem;
-    overflow: auto;
-    max-height: 80vh;
-}
+    justify-content: center;
+  }
+  
+  .div1 { 
+    grid-area: 1 / 1 / 2 / 13; 
+  }
+  .div2 { grid-area: 2 / 1 / 4 / 3; }
+  .div3 { grid-area: 2 / 3 / 4 / 6; }
+  .div4 { grid-area: 4 / 1 / 9 / 6; }
+  .div5 { grid-area: 9 / 1 / 11 / 2;}
+  .div6 { grid-area: 11 / 1 / 13 / 2; }
+  .div7 { grid-area: 9 / 2 / 11 / 3; }
+  .div8 { grid-area: 11 / 2 / 13 / 3; }
+  .div9 { grid-area: 9 / 3 / 13 / 6; }
+  .div10 { grid-area: 11 / 6 / 13 / 10; }
+  .div11 { grid-area: 11 / 10 / 13 / 13; }
+  .div12 { 
+    grid-area: 10 / 6 / 11 / 7; 
+    z-index: 1;
+  }
+  .div13 { 
+    grid-area: 10 / 7 / 11 / 8; 
+    z-index: 1;
+  }
+  .div14 { 
+    grid-area: 2 / 6 / 11 / 13; 
+  }

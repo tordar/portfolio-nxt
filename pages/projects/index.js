@@ -4,8 +4,10 @@ import Link from 'next/dist/client/link';
 import CardFunction from '../../components/Card';
 import style from '../../styles/Projects.module.css';
 import { Grid } from '@mui/material';
+import { useState } from 'react';
 
 export async function getStaticProps({ params }){
+
 
   const req = await fetch(`https://gist.githubusercontent.com/tordar/9a7120692cf9de1dc1ad0dc30e4a33ef/raw/54c618f19861fdc5a68bd8afa17765d5e4dedfc7/projects`)
   const data = await req.json();
@@ -17,9 +19,10 @@ export async function getStaticProps({ params }){
 
 
 
-export default function Projects({ projects }) {
+export default function Projects({ projects, card }) {
 
-
+  console.log(card)
+  
   return (
     <div>
     <Head>
@@ -29,20 +32,19 @@ export default function Projects({ projects }) {
       </Head>
       <Grid container spacing={5} justifyContent="space-evenly" alignItems="stretch">
       
-        {projects.map(project => (
-          
+        
             <CardFunction
-              key={project.id}
-              title={project.header}
-              info={project.info}
-              github={project.github}
-              link={project.link}
-              html={project.html}
-              css={project.css}
-              bootstrap={project.bootstrap}
-              javascript={project.javascript}
+              key={projects[0].id}
+              title={projects[0].header}
+              info={projects[0].info}
+              github={projects[0].github}
+              link={projects[0].link}
+              html={projects[0].html}
+              css={projects[0].css}
+              bootstrap={projects[0].bootstrap}
+              javascript={projects[0].javascript}
             />
-        ))}
+        
         </Grid>
     </div>
   )
