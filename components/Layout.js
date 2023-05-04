@@ -5,7 +5,7 @@ import Link from "next/dist/client/link";
 import style from "../styles/Layout.module.css"
 import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import GitHubIcon from '@mui/icons-material/Github';
+// import GitHubIcon from '@mui/icons-material/GithubIcon';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EastIcon from '@mui/icons-material/East';
 import WestIcon from '@mui/icons-material/West';
@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
             <InstagramIcon fontSize='large'/>
         </div>
         <div className={`${style.div7} ${style.base} `}> 
-            <GitHubIcon fontSize='large'/>
+            {/* <GitHubIcon fontSize='large'/> */}
         </div>
         <div className={`${style.div8} ${style.base} `}>
             <LinkedInIcon fontSize='large'/>

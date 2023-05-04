@@ -21,7 +21,7 @@ export async function getStaticProps({ params }){
 
 export default function Projects({ projects, card }) {
 
-  console.log(projects[card])
+  console.log(card)
   
   return (
     <div>
