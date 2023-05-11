@@ -11,13 +11,14 @@ import EastIcon from '@mui/icons-material/East';
 import WestIcon from '@mui/icons-material/West';
 import Image from 'next/dist/client/image';
 import { useState } from 'react';
-
-
+import { Providers } from '../pages/providers'
+import { useTheme } from 'next-themes'
 
 
 
 const Layout = ({ children }) => {
     const [card, setCard] = useState(0)
+    const { theme, setTheme } = useTheme()
 
     function onNext(){
         setCard(card + 1)
@@ -30,15 +31,19 @@ const Layout = ({ children }) => {
     }
 
     return (
-        
+        <html suppressHydrationWarning>
+      <head />
+      <body>
+        <Providers>
         <div className={style.parent}>
         <div className={`${style.div1} ${style.base} `}>
             <Navigation /> </div>
         <div className={`${style.div2} ${style.base} `}>
         2
         </div>
-        <div className={`${style.div3} ${style.base} `}>3 </div>
-        <div className={`${style.div4} ${style.base} `}> 4</div>
+        <div className={`${style.div3} ${style.base} `}>The current theme is: {theme} </div>
+        <div className={`${style.div4} ${style.base} `}> <button onClick={() => setTheme('light')}>Light Mode</button>
+      <button onClick={() => setTheme('dark')}>Dark Mode</button></div>
         <div className={`${style.div5} ${style.base} `}> 
             <EmailIcon fontSize='large'/>
         </div>
@@ -64,6 +69,9 @@ const Layout = ({ children }) => {
         { children }
         </div>
         </div>
+        </Providers>
+        </body>
+    </html>
     )
 }
 

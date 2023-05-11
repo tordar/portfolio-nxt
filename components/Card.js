@@ -11,7 +11,7 @@ import Chip from "@mui/material/Chip";
 
 const CardFunction = (props) => {
 
-   
+
     
     return (
         <Grid item s>
