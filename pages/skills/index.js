@@ -23,14 +23,14 @@ export default function Skills({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="tileContainer">
-      {skills.map(skill => (
+      {/*{skills.map(skill => (*/}
             <Tile
-              key={skill.id}
+              key={skills[0].id}
               // text={skill.header}
-              info={skill.info}
-              img={skill.img}
-            />
-        ))}
+              info={skills[0].info}
+              img={skills[0].img}
+            /> 
+        {/*))}*/}
         </div>
     </div>
   )

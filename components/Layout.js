@@ -47,11 +47,17 @@ const Layout = ({ children }) => {
         <div className={`${style.div5} ${style.base} `}> 
             <EmailIcon fontSize='large'/>
         </div>
+            <div className={`${style.div15} ${style.base} `}>
+                <EmailIcon fontSize='large'/>
+            </div>
         <div className={`${style.div6} ${style.base} `}> 
             <InstagramIcon fontSize='large'/>
         </div>
+            <div className={`${style.div16} ${style.base} `}>
+                <EmailIcon fontSize='large'/>
+            </div>
         <div className={`${style.div7} ${style.base} `}> 
-            {/* <GitHubIcon fontSize='large'/> */}
+            Some text
         </div>
         <div className={`${style.div8} ${style.base} `}>
             <LinkedInIcon fontSize='large'/>
