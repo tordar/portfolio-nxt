@@ -32,7 +32,9 @@ const Layout = ({ children }) => {
 
     return (
         <html suppressHydrationWarning>
-      <head />
+      <head>
+          <title>Portfolio</title>
+      </head>
       <body>
         <Providers>
         <div className={style.parent}>
@@ -71,7 +73,7 @@ const Layout = ({ children }) => {
         <div className={`${style.div13} ${style.base} ${"hover:bg-gray-50"} ${"text-gray-50"}  ${"hover:text-black"}`}> 
             <EastIcon fontSize='large' onClick={onNext}/>
         </div>
-        <div card className={`${style.div14} ${style.base} `}> 
+        <div className={`${style.div14} ${style.base} `}> 
         { children }
         </div>
         </div>
